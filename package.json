@@ -1,8 +1,11 @@
 {
-  "name": "npm-hook-receiver",
+  "name": "@rexlabs/npm-hook-receiver",
   "description": "sample code for receiving package hooks from the npm registry",
   "version": "1.0.0",
-  "author": "C J Silverio <ceej@npmjs.com>",
+  "authors": [
+    "C J Silverio <ceej@npmjs.com>",
+    "Lochlan Bunn <bunn@lochlan.io>"
+  ],
   "keywords": [
     "hooks",
     "npm",
@@ -15,6 +18,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "restify": "^5.0.1"
+    "restify": "^7.2.1"
   }
 }
